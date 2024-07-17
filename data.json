@@ -1,0 +1,73 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through the best planting times for various crops, optimal growing conditions, agricultural research centers, and suppliers for farming equipment.", "Offering support for optimal planting times, ideal growing conditions, agricultural research centers, and farming equipment suppliers."],
+     "context": [""]
+    },
+    {"tag": "adverse_cropyield",
+     "patterns": ["What factors affect crop yield?", "Factors affect on crop yield", "What conditions are necessary for optimal crop growth?", "What are the challenges faced by farmers for crop growth?" ],
+     "responses": ["Factors affecting crop yield include soil quality, water availability, climate conditions, pest and disease management, and farming practices."],
+     "context": [""]
+    },
+    {"tag": "crop_rotation",
+     "patterns": ["What is crop rotation and why is it beneficial?", "Crop Rotation", "Why do farmers plant different vegetables in their fields year after year?" ],
+     "responses": ["Crop rotation is the practice of growing different types of crops in the same area in sequential seasons. It benefits the soil by improving nutrient balance, reducing soil erosion, and interrupting pest and disease cycles."],
+     "context": [""]
+    },
+    {"tag": "diseases_crop_production",
+     "patterns": ["How do pests and diseases affect crop production?", "How pests affect on crop production?", "How diseases affect on crop production?", "Diseases of Crop Production"],
+     "responses": ["Pests and diseases can significantly reduce crop yields and quality. Effective management involves monitoring, using resistant crop varieties, applying pesticides judiciously, and adopting integrated pest management (IPM) practices."],
+     "context": [""]
+    },
+    {"tag": "challenges_faced_crop_production",
+     "patterns": ["What are the challenges faced in crop production?","challenges of crop production"],
+     "responses": ["Challenges include climate change, pest and disease outbreaks, soil degradation, water scarcity, limited access to modern technology, and market fluctuations."],
+     "context": [""]
+    },
+    {"tag": "improve_crop_production",
+     "patterns": ["How can smallholder farmers improve crop production?", "How can farmers improve crop production?", "improve crop production" ],
+     "responses": ["Farmers can improve crop production by adopting improved seed varieties, practicing sustainable farming techniques, accessing agricultural extension services, using appropriate inputs, and participating in cooperatives."],
+     "context": [""]
+    },
+    {"tag": "role_of_fertilizers",
+     "patterns": ["What role do fertilizers play in crop production?", "Role of fertilizers in crop production", "Benefits or Importance of fertilizers in crop production"],
+     "responses": ["Fertilizers provide essential nutrients (such as nitrogen, phosphorus, and potassium) to crops, promoting healthy growth and higher yields. Balanced and timely fertilizer application is crucial for optimal crop production."],
+     "context": [""]
+    },
+    {"tag": "time_crop_rice",
+     "patterns": ["which time is better for crop rice?", "Better time for crop rice? ", "best season for rice cultivation", "most suitable time to grow rice", "ideal season for rice farming" ],
+     "responses": ["Main Rice Growing Seasons:\n Kharif (Monsoon) Season:Sowing in June-July and harvesting in September-October.\n Rabi (Winter) Season:Sowing in November-December and harvesting in March-April.\n Boro (Summer) Season:Sowing in December-January and harvesting in April-May."],
+     "context": [""]
+    },
+    {"tag": "time_crop_wheat",
+     "patterns": ["which time is better for crop wheat?", "Better time for crop wheat? ", "best season for wheat cultivation", "most suitable time to grow wheat", "ideal season for wheat farming" ],
+     "responses": ["Main wheat Growing Seasons:\n Rabi (Winter) Season:Sowing in October-November and harvesting in March-April.\n Spring Wheat:Sowing in early spring (March-April) and harvesting in late summer (July-August)."],
+     "context": [""]
+    },
+    {"tag": "time_crop_Potato",
+     "patterns": ["which time is better for Potato?", "Better time for crop Potato? ", "best season for Potato cultivation", "most suitable time to grow Potato", "ideal season for Potato farming" ],
+     "responses": ["Main Potato Growing Seasons:\n Spring Planting:Planting in early spring (February to April) and harvesting in summer (June to August).\n Fall Planting:Planting in late summer (August to September) and harvesting in late fall or early winter (November to December)."],
+     "context": [""]
+    }
+]
+}

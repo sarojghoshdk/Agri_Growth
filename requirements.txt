@@ -1,0 +1,11 @@
+numpy
+pandas
+Flask
+scikit-learn
+requests
+Markup
+matplotlib
+seaborn
+tensorflow
+keras
+nltk
